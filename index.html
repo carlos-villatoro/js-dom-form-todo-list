@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
 
         <title>Document</title>
@@ -7,27 +7,34 @@
     <body>
         <h1>Our todo list:</h1>
 
-        <div class="current">
+        <div >
             <h3>Current Todos</h3>
+            <ul id="current">
+
+            </ul>
         </div>
         
         <div class="finished">
             <h3>Finished Todos</h3>
+            <ul id="finished">
+
+            </ul>
         </div>
 
         <form id="todo">
-            <div>
+            
             <label for="todo-input">Todo</label>
             <input id="todo-input" type="text" />
-            </div>
+            
 
-            <input type="submit">
+            <input type="submit"/>
 
         </form>    
         
-        <button id="clear">Clear</button>
+        
 
     </body>
 
-<script src="./js/script.js"
+    <script src="./js/script.js"></script>
+
 </html>
